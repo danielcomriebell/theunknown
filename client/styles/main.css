@@ -214,3 +214,106 @@
   -moz-transition:  all .3s ease-in-out;
   -o-transition:  all .3s ease-in-out;
 }
+
+.logout-button2{
+  z-index: 9;
+}
+
+.logout-button2 button{
+  -webkit-appearance: none;
+  border: 1px solid black;
+  height: 35px;
+  padding: 8px;
+  color: black;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  right: 35px;
+  top: 36px;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.logout-button2 button:hover{
+  color: white;
+  background-color: black;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition:  all .3s ease-in-out;
+  -o-transition:  all .3s ease-in-out;
+}
+
+.home-button{
+  z-index: 9;
+}
+
+.home-button button{
+  -webkit-appearance: none;
+  border: 1px solid black;
+  height: 35px;
+  padding: 8px;
+  color: black;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 35px;
+  top: 36px;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.home-button a{
+  text-decoration: none;
+  color: black;
+}
+
+.home-button button:hover{
+  color: white;
+  background-color: black;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition:  all .3s ease-in-out;
+  -o-transition:  all .3s ease-in-out;
+}
+
+.home-button a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.links{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 373px;
+}
+
+.links ul{
+  list-style-type: none;
+}
+
+.links li{
+  height: 120px;
+  width: 300px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.links a{
+  font-family: 'Open Sans';
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  left: 123px;
+  top: 46px;
+  transform: translate(-50%);
+}
+
+body > div.ng-scope > div.links.ng-scope > ul > li:nth-child(3) > a{
+  left: 134px;
+}
