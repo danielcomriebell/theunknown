@@ -1,0 +1,26 @@
+<div class = "error-message">
+  <p>{{errorMessage}}</p>
+</div>
+
+
+<div class = "container">
+  <div id = "register-title">
+    <p> Register </p>
+  </div>
+
+  <form class="form" ng-submit="register()">
+      <!-- <label>Please login</label> -->
+      <input placeholder="USERNAME" type="text" class="form-control" name="username" ng-model="registerForm.username" required>
+      <input placeholder="PASSWORD" type="password" class="form-control" name="password" ng-model="registerForm.password" required>
+      <button id="button" type="submit">Register</button>
+  </form>
+
+
+  <div id = "login-account">
+    <p> Have an Account? </p>
+    <a ng-href="#/login">login</a>
+  </div>
+
+</div>
+
+<video class = "home-video" src="media/festival.mov" autoplay="true" loop="true"></video>

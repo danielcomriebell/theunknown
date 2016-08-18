@@ -1,0 +1,30 @@
+<!-- <div class = "login-title">
+  <h1> Seek The Unknown </h1>
+</div> -->
+
+<div class = "error-message">
+  <p>{{errorMessage}}</p>
+</div>
+
+
+<div class = "container">
+  <div id = "container-title">
+    <p> Please Login </p>
+  </div>
+
+  <form class="form" ng-submit="login()">
+      <!-- <label>Please login</label> -->
+      <input placeholder="USERNAME" type="text" class="form-control" name="username" ng-model="loginForm.username" required>
+      <input placeholder="PASSWORD" type="password" class="form-control" name="password" ng-model="loginForm.password" required>
+      <button id="button" type="submit">Submit</button>
+  </form>
+
+
+  <div id = "reg-account">
+    <p> Don't Have an Account? </p>
+    <a ng-href="#/register">Register</a>
+  </div>
+
+</div>
+
+<video class = "home-video" src="media/festival.mov" autoplay="true" loop="true"></video>
