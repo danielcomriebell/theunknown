@@ -283,6 +283,42 @@
   color: white;
 }
 
+
+.home-button2 button{
+  -webkit-appearance: none;
+  border: 1px solid white;
+  height: 35px;
+  padding: 8px;
+  color: white;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 35px;
+  top: 36px;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.home-button2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.home-button2 button:hover{
+  color: black;
+  background-color: white;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition:  all .3s ease-in-out;
+  -o-transition:  all .3s ease-in-out;
+}
+
+.home-button2 a:hover{
+  text-decoration: none;
+  color: black;
+}
+
 .links{
   position: absolute;
   left: 50%;

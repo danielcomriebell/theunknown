@@ -32,7 +32,8 @@ angular.module("myApp", ['ngRoute'])
 
   .when('/seek', {
     templateUrl: '/views/seek.html',
-    access:{restricted:true}
+    access:{restricted:true},
+    controller: 'logoutController'
   })
 
   .otherwise({

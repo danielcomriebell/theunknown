@@ -28,7 +28,8 @@ _angular2.default.module("myApp", ['ngRoute']).config(function ($routeProvider) 
     controller: 'registerController'
   }).when('/seek', {
     templateUrl: '/views/seek.html',
-    access: { restricted: true }
+    access: { restricted: true },
+    controller: 'logoutController'
   }).otherwise({
     redirectTo: '/'
   });
